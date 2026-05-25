@@ -1,0 +1,18 @@
+[project]
+name = "ds-mcp-server"
+version = "0.1.0"
+description = "A beginner-friendly MCP server for data science workflows"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.8.0",
+    "pandas>=2.0.0",
+    "scikit-learn>=1.4.0"
+]
+
+[project.scripts]
+ds-mcp-server = "ds_mcp_server.server:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
