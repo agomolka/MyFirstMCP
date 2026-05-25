@@ -10,7 +10,7 @@ The server lets an MCP-compatible LLM client inspect and analyze a local CSV dat
 
 ## What it does
 
-`first-mcp-insights` exposes data science tools to an LLM client:
+`MyFirstMCP` exposes data science tools to an LLM client:
 - List available datasets
 - Profile a dataset
 - Inspect numeric and categorical columns
@@ -29,13 +29,13 @@ LLM Client
   ↓
 MCP Client
   ↓
-first-mcp-insights MCP Server
+MyFirstMCP
   ↓
 pandas + local CSV
 ```
 
 ## Test the server with MCP Inspector
-npx @modelcontextprotocol/inspector first-mcp-insights
+npx @modelcontextprotocol/inspector MyFirstMCP
 
 ## Security notes
 This project is intentionally limited for safety:
