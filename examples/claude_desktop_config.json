@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "first-mcp-insights": {
+      "command": "first-mcp-insights"
+    }
+  }
+}
